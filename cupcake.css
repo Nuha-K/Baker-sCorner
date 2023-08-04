@@ -32,7 +32,7 @@ body
     grid-template-rows: repeat(1, 250px);
     gap: 50px;
     justify-items: center;
-    padding: 20px;
+    padding: 15px 45px 20px 45px;
 }
 
 
