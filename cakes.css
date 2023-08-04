@@ -8,6 +8,15 @@ body
     text-transform: uppercase;
 }
 
+.title
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 10%;
+    right: 45%;
+}
 
 .navbar
 {
