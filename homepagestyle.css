@@ -2,21 +2,23 @@ body
 {
     font-family: 'Poppins', sans-serif;
     background-image: url(close-up-hand-holding-strawberry.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0% -250px;
+    background-size: 100% auto;
     text-transform: uppercase;
 }
+
 
 .navbar
 {
     background: none;
     z-index: 1;
     width: 90%;
-    padding: 0px 100px;
+    padding: 0px 80px;
     box-sizing: border-box;
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
     height: 80px;
     display: flex;
@@ -24,11 +26,15 @@ body
     align-items: center;
 }
 
+.navbar-list {
+    position: absolute;
+    left: 800px; 
+}
 
 .navbar-list ul
 {
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     list-style: none;
     padding: 0;
 }
@@ -73,7 +79,7 @@ body
 {
     font-size: 40px;
     font-weight: 800;
-    background: linear-gradient(112.82deg, #FFCACC 19.93%, #DBC4F0 102.22%);
+    background: linear-gradient(112.82deg, #FFA1C5 19.93%, #A773C3 102.22%);
     -webkit-background-clip: text;
     color: transparent;
 }

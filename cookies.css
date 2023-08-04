@@ -1,0 +1,85 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(plate-with-macarons-table.jpg); /*changed the background*/
+    background-repeat: no-repeat;
+    background-position: 0% 0px;
+    background-size: 100% auto;
+    text-transform: uppercase;
+}
+
+
+.navbar
+{
+    background: none;
+    z-index: 1;
+    width: 90%;
+    padding: 0px 80px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 40%;
+    transform: translateX(-50%);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list {
+    position: absolute;
+    left: 800px; 
+}
+
+.navbar-list ul
+{
+    display: flex;
+    align-items:flex-end;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-list ul li
+{
+    margin-left: 30px;
+}
+
+
+.navbar-list ul li a
+{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+
+
+.scroll
+{
+    background: #FFCACC;
+    top: -100px;
+    width: 90%;
+    animation: fadedown .4s ease 1s forwards;
+}
+
+@keyframes fadedown {
+    0%
+    {
+        top:-100px;
+    }
+    100%
+    {
+        top: 20px;
+    }
+    
+}
+
+.navbar-brand
+{
+    font-size: 40px;
+    font-weight: 800;
+    background: linear-gradient(112.82deg, #FFA1C5 19.93%, #A773C3 102.22%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
